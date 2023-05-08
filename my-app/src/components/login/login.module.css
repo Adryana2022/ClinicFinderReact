@@ -1,0 +1,56 @@
+
+.button {
+  background-color: #0d0134; /* cor de fundo */
+  color: white; /* cor do texto */
+  padding: 12px 24px; /* tamanho do botão */
+  border: none; /* remove a borda */
+  border-radius: 5px; /* arredonda as bordas */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* sombra */
+  margin-top: 25px;
+  margin:  10px;
+  transition: all 0.3s ease; /* animação de transição */
+}
+
+.button:hover {
+  background-color: #f3f4f3; /* cor de fundo quando o mouse estiver em cima */
+  color: #020642; /* cor do texto quando o mouse estiver em cima */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* sombra quando o mouse estiver em cima */
+  transform: translateY(-2px); /* efeito de elevação ao passar o mouse */
+}
+
+  .login {font-family: Ubuntu-Bold;
+    font-size: 20px;
+    color: #403866;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 51px;
+  }
+  .logo{
+    width: 180px;
+    padding: 50px;
+  }
+
+  
+  .input{
+  padding: 5px;
+  
+      
+  }
+  .lembrar{
+    font-size: 13px;
+    height: 30px;
+    text-align: center;
+
+  }
+
+  
+@media (max-width: 768px) {
+    .login {
+        flex-direction: column;
+    }
+    .image-container {
+        height: 50vh;
+    }
+  }
