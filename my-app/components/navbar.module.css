@@ -1,0 +1,46 @@
+.menu{
+    display:flex;
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+}
+.title{
+    padding: 10px;
+    color: blue;
+    margin: 10px;
+    
+}
+
+.itens{
+    display:inline-flex;
+    padding: 10px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    position: relative;
+    left:600px;
+    color:black;
+   
+}
+.nav1{
+    margin: 10px;
+    list-style: none;
+   
+   
+    
+}
+
+.nav2{
+    margin: 10px;
+    list-style: none;
+   
+    
+}
+
+.nav3{
+    margin: 10px;
+    list-style: none;
+    
+    
+}
